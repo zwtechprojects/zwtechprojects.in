@@ -1,0 +1,291 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZWTECH PROJECTS</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f4f7fc;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#0f172a,#1e3a8a);
+color:white;
+padding:20px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:35px;
+font-weight:900;
+color:#ffd700;
+}
+
+.contact{
+font-size:18px;
+font-weight:bold;
+}
+
+.hero{
+height:90vh;
+background:url('https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=1600') center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero-content{
+background:rgba(0,0,0,0.6);
+padding:40px;
+border-radius:20px;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 30px;
+background:#ff6b00;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+.section{
+padding:80px 10%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+color:#0f172a;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:#1e3a8a;
+margin-bottom:10px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+}
+
+.review{
+background:white;
+padding:25px;
+margin:15px 0;
+border-left:5px solid #1e3a8a;
+border-radius:10px;
+}
+
+.contact-box{
+background:#0f172a;
+color:white;
+padding:40px;
+border-radius:20px;
+text-align:center;
+}
+
+.contact-box a{
+display:inline-block;
+margin:10px;
+padding:12px 25px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+footer{
+background:#000;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">ZWTECH PROJECTS</div>
+<div class="contact">📞 8110869050</div>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>ZWTECH PROJECTS</h1>
+<p>IoT • Embedded Systems • Robotics • Electronics Projects</p>
+<a href="#contact" class="btn">Contact Us</a>
+</div>
+</section>
+
+<section class="section">
+<h2 class="title">About Us</h2>
+
+<p style="text-align:center;font-size:20px;">
+DWTECH PROJECTS provides innovative engineering solutions in
+IoT, Embedded Systems, Robotics, Automation, Electronics and
+Final Year Academic Projects for Diploma and Engineering Students.
+We deliver high-quality hardware and software projects with
+complete documentation, source code, project reports and support.
+</p>
+
+</section>
+
+<section class="section">
+<h2 class="title">Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>IoT Projects</h3>
+<p>ESP32, Arduino, GSM, GPS, Cloud and Smart Automation Projects.</p>
+</div>
+
+<div class="card">
+<h3>Embedded Systems</h3>
+<p>Microcontroller Based Automation and Control Systems.</p>
+</div>
+
+<div class="card">
+<h3>Robotics Projects</h3>
+<p>Autonomous Robots, Smart Vehicles and AI Robotics.</p>
+</div>
+
+<div class="card">
+<h3>Electronics Projects</h3>
+<p>Innovative Electronics and Instrumentation Solutions.</p>
+</div>
+
+</div>
+</section>
+```
+```html
+<section class="section">
+<h2 class="title">Project Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1561144257-e32e8efc6c4f?w=800">
+
+<img src="https://images.unsplash.com/photo-1581092335397-9583eb92d232?w=800">
+
+<img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800">
+
+<img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800">
+
+</div>
+</section>
+
+<section class="section">
+<h2 class="title">Customer Reviews</h2>
+
+<div class="review">
+★★★★★ Excellent project guidance and technical support.
+</div>
+
+<div class="review">
+★★★★★ Professional service with complete project documentation.
+</div>
+
+<div class="review">
+★★★★★ Best place for IoT, Robotics and Embedded Projects.
+</div>
+
+</section>
+
+<section class="section" id="contact">
+
+<h2 class="title">Contact Us</h2>
+
+<div class="contact-box">
+
+<h3>ZWTECH PROJECTS</h3>
+
+<p>
+13/46, 7th Ramanatheswarar Nagar,<br>
+Porur, Chennai,<br>
+Tamil Nadu - 600116
+</p>
+
+<br>
+
+<p>📞 8110869050</p>
+
+<a href="https://wa.me/918110869050" target="_blank">
+WhatsApp Us
+</a>
+
+<a href="https://maps.google.com/?q=13/46,7th Ramanatheswarar Nagar,Porur,Chennai,Tamil Nadu 600116" target="_blank">
+View Location
+</a>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 ZWTECH PROJECTS | All Rights Reserved
+</footer>
+
+</body>
+</html>
+```
